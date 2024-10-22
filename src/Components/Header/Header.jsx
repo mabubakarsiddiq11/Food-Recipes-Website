@@ -34,7 +34,11 @@ function Header() {
               {" "}
               <a className="mr-5 hover:text-gray-900">Recipe</a>
             </Link>
-            <a className="mr-5 hover:text-gray-900">Add Recipe</a>
+            <Link to="/addRecipes">
+              {" "}
+              <a className="mr-5 hover:text-gray-900">Add Recipe</a>
+            </Link>
+           
             <Link to="/blog">
               {" "}
               <a className="mr-5 hover:text-gray-900">Blog</a>

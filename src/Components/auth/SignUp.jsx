@@ -228,7 +228,7 @@ function SignUp() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await createUserWithEmailAndPassword(auth,name, email, password);
+      await createUserWithEmailAndPassword(auth, email, password);
       navigate('/');
     } catch (error) {
       console.log(error);
@@ -248,19 +248,11 @@ function SignUp() {
       .catch((error) => {
         console.log('Error=>', error.code, error.message);
       });
+
+     
   };
 
-  // createUserWithEmailAndPassword(auth, email, password)
-  // .then((userCredential) => {
-  //   // Signed up 
-  //   const user = userCredential.user;
-  //   // ...
-  // })
-  // .catch((error) => {
-  //   const errorCode = error.code;
-  //   const errorMessage = error.message;
-  //   // ..
-  // });
+
 
 
 

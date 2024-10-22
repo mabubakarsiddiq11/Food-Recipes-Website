@@ -8,6 +8,7 @@ import Recipes from './Components/Recipes/Recipes'
 import Blog from './Components/Blog/Blog'
 import Footer from './Components/Footer/Footer'
 import AboutUs from './Components/AboutUs/AboutUs'
+import AddRecipe from './Components/AddRecipes/AddRecipe'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <Route path='/signUp' element={<SignUp/>}/>
         <Route path='/Login' element={<Login/>}/>
         <Route path='/recipes' element={<Recipes/>}/>
+        <Route path='/addRecipes' element={<AddRecipe/>}/>
         <Route path='/blog' element={<Blog/>}/>
         <Route path='/aboutUs' element={<AboutUs/>}/>
       </Routes>

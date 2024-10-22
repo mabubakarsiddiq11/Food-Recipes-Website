@@ -3,18 +3,18 @@ import React from 'react'
 function AboutUs() {
   return (
     <div>
-      <section className="text-gray-600 body-font">
+      <section className="text-black font-bold body-font">
   <div className="container px-5 py-24 mx-auto flex flex-wrap">
     <div className="lg:w-2/3 mx-auto">
       <div className="flex flex-wrap w-full bg-gray-100 py-32 px-10 relative mb-4">
         <img
           alt="gallery"
-          className="w-full object-cover h-full object-center block opacity-25 absolute inset-0"
-          src="https://dummyimage.com/820x340"
+          className="w-full object-cover h-full object-center block opacity-65 absolute inset-0"
+          src="https://img.freepik.com/premium-photo/group-chefs-working-kitchen_146105-18605.jpg?ga=GA1.1.1937194280.1724435367&semt=ais_hybrid"
         />
         <div className="text-center relative z-10 w-full">
-          <h2 className="text-2xl text-gray-900 font-medium title-font mb-2">
-            Shooting Stars
+          <h2 className="text-5xl text-zinc-900 font-bold title-font mb-2">
+            Perfect Team
           </h2>
           <p className="leading-relaxed">
             Skateboard +1 mustache fixie paleo lumbersexual.
@@ -40,12 +40,12 @@ function AboutUs() {
           <div className="flex flex-wrap w-full bg-gray-100 sm:py-24 py-16 sm:px-10 px-6 relative">
             <img
               alt="gallery"
-              className="w-full object-cover h-full object-center block opacity-25 absolute inset-0"
-              src="https://dummyimage.com/542x460"
+              className="w-full object-cover h-full object-center block opacity-65 absolute inset-0"
+              src="https://img.freepik.com/premium-photo/chef-prepares-salad-with-green-background_1217673-326567.jpg?ga=GA1.1.1937194280.1724435367&semt=ais_hybrid"
             />
             <div className="text-center relative z-10 w-full">
-              <h2 className="text-xl text-gray-900 font-medium title-font mb-2">
-                Shooting Stars
+              <h2 className="text-xl text-zinc-900  font-bold title-font mb-2">
+               Perfect Head
               </h2>
               <p className="leading-relaxed">
                 Skateboard +1 mustache fixie paleo lumbersexual.
@@ -71,11 +71,11 @@ function AboutUs() {
           <div className="flex flex-wrap w-full bg-gray-100 sm:py-24 py-16 sm:px-10 px-6 relative">
             <img
               alt="gallery"
-              className="w-full object-cover h-full object-center block opacity-25 absolute inset-0"
-              src="https://dummyimage.com/542x420"
+              className="w-full object-cover h-full object-center block opacity-65 absolute inset-0"
+              src="https://img.freepik.com/free-photo/man-cooking_144627-38526.jpg?ga=GA1.1.1937194280.1724435367&semt=ais_hybrid"
             />
             <div className="text-center relative z-10 w-full">
-              <h2 className="text-xl text-gray-900 font-medium title-font mb-2">
+              <h2 className="text-xl text-zinc-900 font-bold title-font mb-2">
                 Shooting Stars
               </h2>
               <p className="leading-relaxed">

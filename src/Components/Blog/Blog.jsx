@@ -20,7 +20,7 @@ function Blog() {
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
           <img
             className="lg:h-48 md:h-36 w-full object-cover object-center"
-            src="https://dummyimage.com/720x400"
+            src="https://img.freepik.com/free-photo/online-message-blog-chat-communication-envelop-graphic-icon-concept_53876-139717.jpg?ga=GA1.1.1937194280.1724435367&semt=ais_hybrid"
             alt="blog"
           />
           <div className="p-6">
@@ -87,7 +87,7 @@ function Blog() {
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
           <img
             className="lg:h-48 md:h-36 w-full object-cover object-center"
-            src="https://dummyimage.com/721x401"
+            src="https://img.freepik.com/free-vector/isometric-blogging-concept_23-2148003890.jpg?ga=GA1.1.1937194280.1724435367&semt=ais_hybrid"
             alt="blog"
           />
           <div className="p-6">
@@ -154,7 +154,7 @@ function Blog() {
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
           <img
             className="lg:h-48 md:h-36 w-full object-cover object-center"
-            src="https://dummyimage.com/722x402"
+            src="https://img.freepik.com/free-vector/background-with-sketches-blog_23-2147562971.jpg?ga=GA1.1.1937194280.1724435367&semt=ais_hybrid"
             alt="blog"
           />
           <div className="p-6">

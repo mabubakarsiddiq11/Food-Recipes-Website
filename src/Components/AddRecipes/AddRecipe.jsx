@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import {recipeCollection,addDoc,getDocs} from './Firebase'
+import { recipeCollection, addDoc, getDocs } from "./Firebase";
 
-// const recipes = [
+
+// export const recipes = [
 //   {
 //     id: 1,
 //     name: "Spaghetti Carbonara",
@@ -49,7 +50,7 @@ import {recipeCollection,addDoc,getDocs} from './Firebase'
 //     name: "Sushi",
 //     role: "Japanese Dish",
 //     description: "Vinegared rice accompanied by various ingredients, including seafood and vegetables.",
-//     image: "https://img.freepik.com/free-photo/sushi_144627-1032.jpg?ga=GA1.1.1937194280.1724435367&semt=ais_hybrid"
+//     image: "https://img.freepik.com/free-photo/sushi-set-with-tuna-salmon-vegetables-ginger-wasabi-side-view_141793-15530.jpg?ga=GA1.1.1937194280.1724435367&semt=ais_hybrid"
 //   },
 //   {
 //     id: 8,
@@ -86,10 +87,7 @@ import {recipeCollection,addDoc,getDocs} from './Firebase'
 //     description: "A refreshing smoothie made with mixed fruits and yogurt.",
 //     image: "https://img.freepik.com/free-photo/fruit-smoothie_144627-1037.jpg?ga=GA1.1.1937194280.1724435367&semt=ais_hybrid"
 //   },
-// ]
-
-
-
+// ];
 function AddRecipe() {
   const [name, setName] = useState("");
   const [role, setRole] = useState("");
@@ -99,25 +97,22 @@ function AddRecipe() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const docRef = await addDoc(recipeCollection,{
-        name : name,
-        role : role,
-        description : description,
-        image : image,
-      } );
+      const docRef = await addDoc(recipeCollection, {
+        // recipes: recipes,
+        name: name,
+        role: role,
+        description: description,
+        image: image,
+      });
+      setName('')
+      setRole('')
+      setDescription('')
+      setImage('')
       console.log("Document written with ID: ", docRef);
     } catch (error) {
       console.error("Error adding document: ", error);
     }
 
-
-    const querySnapshot = await getDocs(recipeCollection);
-    querySnapshot.forEach((doc) => {
-      console.log('Data',doc.data())
-      // console.log('ID', doc.id)
-  
-    });
- 
   };
 
   return (
